@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Widgets | Coderider</title>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper-box">
+        <div class="head-bar">
+            <div class="day">
+                <p>Day</p>
+            </div>
+            <div class="city">
+                <i class="fi fi-rr-marker"></i>
+                <span class="">Raipur</span>
+            </div>
+            <div class="setting">
+                <i class="fi fi-rr-settings"></i>
+            </div>
+        </div>
+        <div class="weather-img">
+            <img src="weather-img/weather.png" alt="">
+        </div>
+        <div class="temp">
+            <h1>32 <span>&#176;</span></h>
+                <p>Montery</p>
+        </div>
+        <div class="weather-details">
+            <ul>
+                <li>
+                    <p>Wind Now</p>
+                    <div class="wind">
+                        <h1>15</h1><span>km</span>
+                    </div>
+                </li>
+                <li>
+                    <p>Humidity</p>
+                    <div class="hunidity">
+                        <h1>87</h1><span>%</span>
+                    </div>
+                </li>
+                <li>
+                    <p>Precipation</p>
+                    <div class="preception">
+                        <h1>87</h1><span>%</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=true"></script> 
+    <script src="main.js"></script>
+</body onload="initialize()">
+</html>
